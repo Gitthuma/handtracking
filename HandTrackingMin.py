@@ -6,3 +6,6 @@ import mediapipe as mp
 
 # Import time. This is for checking frame rate
 import time
+
+# Create video object and assign it a camera
+cap = cv2.VideoCapture(0)
