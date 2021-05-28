@@ -9,3 +9,7 @@ import time
 
 # Create video object and assign it a camera
 cap = cv2.VideoCapture(0)
+
+# Create a while true statement that will give us our frame
+while True:
+    success, img = cap.read()
